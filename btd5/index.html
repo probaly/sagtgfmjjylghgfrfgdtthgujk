@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BTD5 Flash</title>
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+  <style>
+    body {
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    #flash-container {
+      border: 4px solid #00bfff;
+      box-shadow: 0 0 30px #00bfff;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <div id="flash-container">
+    <embed src="btd5.swf" width="800" height="600" allowFullScreen="true">
+  </div>
+</body>
+</html>
